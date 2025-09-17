@@ -48,9 +48,9 @@ Below is a list of tasks that correspond roughly to the "Take Action" sections o
 ## Chapter 1
 Getting to Know Your Environment (9–21)
 
-- [ ] ✏️ Open the reference manual for any component from inside Unity. Paste the link: https://docs.unity3d.com/6000.2/Documentation/Manual/class-Transform.html
+- [ ] ✏️ Open the reference manual for any component from inside Unity. Paste the link: (https://docs.unity3d.com/6000.2/Documentation/Manual/class-Transform.html)
 - [ ] ✏️ Find the button to jump to the scripting reference the any reference manual page. Paste the link: (https://docs.unity3d.com/6000.2/Documentation/ScriptReference/Transform.html)
-- [ ] ✏️ Search for the `Strings` class in [Microsoft's C# documents](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/). Paste the link: https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/
+- [ ] ✏️ Search for the `Strings` class in [Microsoft's C# documents](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/). Paste the link: [https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/](https://learn.microsoft.com/en-us/dotnet/api/system.string?view=net-9.0)
 
 
 ## Chapter 2
