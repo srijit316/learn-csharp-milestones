@@ -50,7 +50,7 @@ Getting to Know Your Environment (9–21)
 
 - [ ] ✏️ Open the reference manual for any component from inside Unity. Paste the link: https://docs.unity3d.com/6000.2/Documentation/Manual/class-Transform.html
 - [ ] ✏️ Find the button to jump to the scripting reference the any reference manual page. Paste the link: (https://docs.unity3d.com/6000.2/Documentation/ScriptReference/Transform.html)
-- [ ] ✏️ Search for the `Strings` class in [Microsoft's C# documents](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/). Paste the link: **??**
+- [ ] ✏️ Search for the `Strings` class in [Microsoft's C# documents](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/). Paste the link: https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/
 
 
 ## Chapter 2
