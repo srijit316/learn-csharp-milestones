@@ -90,7 +90,7 @@ Control Flow and Collection Types (65–93)
 		- [X] Write a nested `if` statement
 		- [X] Write a `switch` statement
 	- [X] Collections
-		- [X] ✏️ What will `arr[1]` return from this array `int[] arr = {'red','green','blue'};` ? : **??**
+		- [X] ✏️ What will `arr[1]` return from this array `int[] arr = {'red','green','blue'};` ? : **green**
 		- [X] Write an Array of the type `int[]`
 		- [X] Write a List of the type `List<string>`
 		- [X] Write a Dictionary of the type `Dictionary<string, int>`
