@@ -105,30 +105,32 @@ Control Flow and Collection Types (65–93)
 Working with Classes, Structs, and OOP (94–119)
 
 - Classes
-	- [ ] ✏️ Explain the difference between reference and value type variables: **??**
-	- [ ] Create Assets/Scripts/Character.cs
-		- [ ] Create a `Character` class
-		- [ ] Create `string` and `int` fields inside the Character class
-		- [ ] Create a `Character()` constructor and populate the above fields with its parameters
-	- [ ] Update Assets/Scripts/LearningCurve.cs
-		- [ ] Instantiate two new Character objects `hero` and `heroine` from the `Character` class
-		- [ ] Print out each characters data
-- [ ] Structs
-	- [ ] Update Assets/Scripts/Character.cs
-		- [ ] Add a `Weapon` struct
-		- [ ] Create `string` and `int` fields inside the Weapon struct
-		- [ ] Create a `Weapon()` constructor and populate the above fields with its parameters
-	- [ ] Update Assets/Scripts/LearningCurve.cs
-		- [ ] Instantiate two new Weapon objects `huntingBow` and `warBow` from the `Weapon` struct
-		- [ ] Print out each weapons' data
+	- [X] ✏️ Explain the difference between reference and value type variables: **Reference types, like classes, store references to their data in memory.
+     Value types, like structs, store the actual data directly in memory.
+**
+	- [X] Create Assets/Scripts/Character.cs
+		- [X] Create a `Character` class
+		- [X] Create `string` and `int` fields inside the Character class
+		- [X] Create a `Character()` constructor and populate the above fields with its parameters
+	- [X] Update Assets/Scripts/LearningCurve.cs
+		- [X] Instantiate two new Character objects `hero` and `heroine` from the `Character` class
+		- [X] Print out each characters data
+- [X] Structs
+	- [X] Update Assets/Scripts/Character.cs
+		- [X] Add a `Weapon` struct
+		- [X] Create `string` and `int` fields inside the Weapon struct
+		- [X] Create a `Weapon()` constructor and populate the above fields with its parameters
+	- [X] Update Assets/Scripts/LearningCurve.cs
+		- [X] Instantiate two new Weapon objects `huntingBow` and `warBow` from the `Weapon` struct
+		- [X] Print out each weapons' data
 - Child classes
-	- [ ] Update Assets/Scripts/Character.cs
-		- [ ] Add a `Paladin` child class of `Character`
-		- [ ] Create a `Weapon` field inside the Paladin class
-		- [ ] Create a `Paladin()` constructor that calls the `base()` constructor. Populate the weapon in a parameter
-	- [ ] Update Assets/Scripts/LearningCurve.cs
-		- [ ] Instantiate a new Paladin object `knight` from the Paladin class
-		- [ ] Print the Paladin's name and weapon by overriding `PrintStatsInfo` in the base class
+	- [X] Update Assets/Scripts/Character.cs
+		- [X] Add a `Paladin` child class of `Character`
+		- [X] Create a `Weapon` field inside the Paladin class
+		- [X] Create a `Paladin()` constructor that calls the `base()` constructor. Populate the weapon in a parameter
+	- [X] Update Assets/Scripts/LearningCurve.cs
+		- [X] Instantiate a new Paladin object `knight` from the Paladin class
+		- [X] Print the Paladin's name and weapon by overriding `PrintStatsInfo` in the base class
 - Referencing objects
 	- [ ] Update Assets/Scripts/LearningCurve.cs
 		- [ ] Store a reference to the current game object's (Main Camera) `Transform` component using `GetComponent<>()`
