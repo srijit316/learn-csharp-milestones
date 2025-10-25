@@ -48,19 +48,19 @@ Below is a list of tasks that correspond roughly to the "Take Action" sections o
 ## Chapter 1
 Getting to Know Your Environment (9–21)
 
-- ✅ ✏️ Open the reference manual for any component from inside Unity. Paste the link: (https://docs.unity3d.com/6000.2/Documentation/Manual/class-Transform.html)
-- ✅ ✏️ Find the button to jump to the scripting reference the any reference manual page. Paste the link: (https://docs.unity3d.com/6000.2/Documentation/ScriptReference/Transform.html)
-- ✅ ✏️ Search for the `Strings` class in [Microsoft's C# documents](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/). Paste the link: [https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/](https://learn.microsoft.com/en-us/dotnet/api/system.string?view=net-9.0)
+- [X] ✏️ Open the reference manual for any component from inside Unity. Paste the link: [link](https://docs.unity3d.com/6000.2/Documentation/Manual/class-Transform.html)
+- [X] ✏️ Find the button to jump to the scripting reference the any reference manual page. Paste the link: (https://docs.unity3d.com/6000.2/Documentation/ScriptReference/Transform.html)
+- [X] ✏️ Search for the `Strings` class in [Microsoft's C# documents](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/). Paste the link: [https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/](https://learn.microsoft.com/en-us/dotnet/api/system.string?view=net-9.0)
 
 
 ## Chapter 2
 The Building Blocks of Programming (22–37)
 
-- ✅ Open the Unity project contained within this repo
-- ✅ Create Assets/Scripts/LearningCurve.cs
-	- ✅ Create C# variables with typeof `int`, `float`, `string`, and `bool`
-	- ✅ Add a single line, multi line, and summary comment to LearningCurve.cs
-	- ✅ Run the code in LearningCurve by attaching it to the Main Camera GameObject
+- [X] Open the Unity project contained within this repo
+- [X] Create Assets/Scripts/LearningCurve.cs
+	- [X] Create C# variables with typeof `int`, `float`, `string`, and `bool`
+	- [X] Add a single line, multi line, and summary comment to LearningCurve.cs
+	- [X] Run the code in LearningCurve by attaching it to the Main Camera GameObject
 
 
 ## Chapter 3
@@ -76,24 +76,24 @@ Diving into Variables, Types, and Methods (38–64)
 		- [X] Add a return type and return some data from a method
 		- [X] Use data returned from a method
 - [X] ✏️ Explain some differences between public and private variables:
-	Public: Can be accessed by any script anywhere—no restrictions.
-	Private: Only accessible inside the class where it’s declared (the containing class). If you don’t specify an access modifier, it’s private by default.
+	Public -> Can be accessed by any script anywhere—no restrictions.
+	Private -> Only accessible inside the class where it’s declared (the containing class). If you don’t specify an access modifier, it’s private by default.
 
 
 ## Chapter 4
 Control Flow and Collection Types (65–93)
 
-- [ ] Update Assets/Scripts/LearningCurve.cs
-	- [ ] Conditionals
-		- [ ] Write `if`, `else if`, and `else` statements
-		- [ ] Test for `true` and `!true` in a conditional
-		- [ ] Write a nested `if` statement
-		- [ ] Write a `switch` statement
-	- [ ] Collections
-		- [ ] ✏️ What will `arr[1]` return from this array `int[] arr = {'red','green','blue'};` ? : **??**
-		- [ ] Write an Array of the type `int[]`
-		- [ ] Write a List of the type `List<string>`
-		- [ ] Write a Dictionary of the type `Dictionary<string, int>`
+- [X] Update Assets/Scripts/LearningCurve.cs
+	- [X] Conditionals
+		- [X] Write `if`, `else if`, and `else` statements
+		- [X] Test for `true` and `!true` in a conditional
+		- [X] Write a nested `if` statement
+		- [X] Write a `switch` statement
+	- [X] Collections
+		- [X] ✏️ What will `arr[1]` return from this array `int[] arr = {'red','green','blue'};` ? : **??**
+		- [X] Write an Array of the type `int[]`
+		- [X] Write a List of the type `List<string>`
+		- [X] Write a Dictionary of the type `Dictionary<string, int>`
 	- [ ] Loops
 		- [ ] Use a `for` loop to print a specific index of a `List<string>`
 		- [ ] Use a `foreach` loop to print all indexes of a `List<string>`
