@@ -94,10 +94,10 @@ Control Flow and Collection Types (65–93)
 		- [X] Write an Array of the type `int[]`
 		- [X] Write a List of the type `List<string>`
 		- [X] Write a Dictionary of the type `Dictionary<string, int>`
-	- [ ] Loops
-		- [ ] Use a `for` loop to print a specific index of a `List<string>`
-		- [ ] Use a `foreach` loop to print all indexes of a `List<string>`
-		- [ ] Use a `foreach` loop to print the `KeyValuePair.Key` and `KeyValuePair.Value` of all indexes of a `Dictionary<string, int>`
+	- [X] Loops
+		- [X] Use a `for` loop to print a specific index of a `List<string>`
+		- [X] Use a `foreach` loop to print all indexes of a `List<string>`
+		- [X] Use a `foreach` loop to print the `KeyValuePair.Key` and `KeyValuePair.Value` of all indexes of a `Dictionary<string, int>`
 
 
 
