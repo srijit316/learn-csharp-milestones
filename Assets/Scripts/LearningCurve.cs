@@ -108,6 +108,34 @@ public class LearningCurve : MonoBehaviour
         {
             Debug.Log($"enemy: {kvp.Key}, strength: {kvp.Value}");
         }
+
+
+        //Ch 5
+
+        Character hero = new Character("Aragon", 10);
+        Character heroine = new Character("Eowyn", 8);
+
+        hero.PrintStatsInfo();
+        heroine.PrintStatsInfo();
+
+        // Structs
+        Weapon huntingBow = new Weapon("Hunting Bow", 25);
+        Weapon warBow = new Weapon("War Bow", 40);
+
+        huntingBow.PrintWeaponStats();
+        warBow.PrintWeaponStats();
+
+        // Child Class (Inheritance)
+        Paladin knight = new Paladin("Galahad", 12, new Weapon("Holy Sword", 75));
+        knight.PrintStatsInfo();
+
+        // Referencing GameObjects
+        Transform cameraTransform = GetComponent<Transform>();
+        Debug.Log($"Camera local position: {cameraTransform.localPosition}");
+
+        GameObject lightObj = GameObject.Find("Directional Light");
+        Transform lightTransform = lightObj.GetComponent<Transform>();
+        Debug.Log($"Light local position: {lightTransform.localPosition}");
     }
 
     // Method Example
@@ -118,3 +146,4 @@ public class LearningCurve : MonoBehaviour
         return xpRequired;
     }
 }
+
