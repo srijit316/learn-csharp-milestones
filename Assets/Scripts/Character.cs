@@ -1,6 +1,5 @@
 using UnityEngine;
 
-// --- Chapter 5: Working with Classes, Structs, and OOP ---
 public class Character
 {
     public string name;
@@ -20,7 +19,7 @@ public class Character
     }
 }
 
-// --- Struct Example ---
+// Struct 
 public struct Weapon
 {
     public string name;
@@ -39,7 +38,7 @@ public struct Weapon
     }
 }
 
-// --- Inheritance Example ---
+//  Inheritance
 public class Paladin : Character
 {
     public Weapon weapon;
