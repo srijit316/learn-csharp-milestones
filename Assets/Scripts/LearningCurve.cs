@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class LearningCurve : MonoBehaviour
 {
-    // --- Variables (Ch 3) ---
+    // Variables
     public int playerLevel = 5;
     private float health = 99.5f;
     public string playerName = "Srijit";
@@ -11,15 +11,18 @@ public class LearningCurve : MonoBehaviour
 
     void Start()
     {
+        // Variables and Methods
         Debug.Log("Player name: " + playerName);
         Debug.LogFormat("Player {0} is level {1} with {2} health", playerName, playerLevel, health);
 
         // String interpolation
         Debug.Log($"Is {playerName} alive? {isAlive}");
 
-        //  Methods
+        // Methods
         int nextLevelXP = XpToLevelUp(playerLevel);
         Debug.Log($"XP needed for next level: {nextLevelXP}");
+
+        // Control Flow and Collections
 
         // Conditionals
         if (playerLevel < 5)
@@ -88,8 +91,7 @@ public class LearningCurve : MonoBehaviour
         };
         Debug.Log($"Dragon strength: {enemies["Dragon"]}");
 
-        //  Loops 
-
+        // Loops 
         for (int i = 0; i < inventory.Count; i++)
         {
             if (i == 2)
@@ -97,7 +99,6 @@ public class LearningCurve : MonoBehaviour
                 Debug.Log($"for-loop specific index 2: {inventory[i]}");
             }
         }
-
 
         foreach (string item in inventory)
         {
@@ -109,8 +110,11 @@ public class LearningCurve : MonoBehaviour
             Debug.Log($"enemy: {kvp.Key}, strength: {kvp.Value}");
         }
 
+        // Classes, Structs, OOP, and References
 
-        //Ch 5
+        // Reference vs Value types:
+        // Class = reference type (stored by reference in memory)
+        // Struct = value type (stored by value directly)
 
         Character hero = new Character("Aragon", 10);
         Character heroine = new Character("Eowyn", 8);
@@ -134,11 +138,18 @@ public class LearningCurve : MonoBehaviour
         Debug.Log($"Camera local position: {cameraTransform.localPosition}");
 
         GameObject lightObj = GameObject.Find("Directional Light");
-        Transform lightTransform = lightObj.GetComponent<Transform>();
-        Debug.Log($"Light local position: {lightTransform.localPosition}");
+        if (lightObj != null)
+        {
+            Transform lightTransform = lightObj.GetComponent<Transform>();
+            Debug.Log($"Light local position: {lightTransform.localPosition}");
+        }
+        else
+        {
+            Debug.LogWarning("Directional Light not found in scene!");
+        }
     }
 
-    // Method Example
+    //Method Example
     int XpToLevelUp(int currentLevel)
     {
         int baseXP = 100;
@@ -146,4 +157,3 @@ public class LearningCurve : MonoBehaviour
         return xpRequired;
     }
 }
-

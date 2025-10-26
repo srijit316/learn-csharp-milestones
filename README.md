@@ -132,12 +132,12 @@ Working with Classes, Structs, and OOP (94–119)
 		- [X] Instantiate a new Paladin object `knight` from the Paladin class
 		- [X] Print the Paladin's name and weapon by overriding `PrintStatsInfo` in the base class
 - Referencing objects
-	- [ ] Update Assets/Scripts/LearningCurve.cs
-		- [ ] Store a reference to the current game object's (Main Camera) `Transform` component using `GetComponent<>()`
-		- [ ] Log a reference to the `localPosition` field of the Main Camera's `Transform`
-		- [ ] Store a reference to the Light `GameObject` using `GameObject.Find()`
-		- [ ] Store a reference to the Light's `Transform` component using `GetComponent<>()`
-		- [ ] Log a reference to the `localPosition` field of the Light's `Transform`
+	- [X] Update Assets/Scripts/LearningCurve.cs
+		- [X] Store a reference to the current game object's (Main Camera) `Transform` component using `GetComponent<>()`
+		- [X] Log a reference to the `localPosition` field of the Main Camera's `Transform`
+		- [X] Store a reference to the Light `GameObject` using `GameObject.Find()`
+		- [X] Store a reference to the Light's `Transform` component using `GetComponent<>()`
+		- [X] Log a reference to the `localPosition` field of the Light's `Transform`
 
 
 
