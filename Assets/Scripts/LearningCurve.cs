@@ -129,7 +129,6 @@ public class LearningCurve : MonoBehaviour
         huntingBow.PrintWeaponStats();
         warBow.PrintWeaponStats();
 
-        // Child Class (Inheritance)
         Paladin knight = new Paladin("Galahad", 12, new Weapon("Holy Sword", 75));
         knight.PrintStatsInfo();
 

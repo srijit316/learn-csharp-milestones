@@ -144,12 +144,12 @@ Working with Classes, Structs, and OOP (94–119)
 ## Chapter 6
 Getting Your Hands Dirty with Unity (120–148)
 
-- [ ] Use primitive cubes and move, rotate, and scale tools to create a level or "world" in Unity
-- [ ] Add materials to primitives in Unity to change their color
-- [ ] Use parenting and "empty objects" in the Hierarchy tab to organize your project
-- [ ] Create, update, and use prefab game objects
-- [ ] Create timeline animations by recording keyframes and editing curves in Unity
-- [ ] Add and edit a particle system to a game object in Unity
+- [X] Use primitive cubes and move, rotate, and scale tools to create a level or "world" in Unity
+- [X] Add materials to primitives in Unity to change their color
+- [X] Use parenting and "empty objects" in the Hierarchy tab to organize your project
+- [X] Create, update, and use prefab game objects
+- [X] Create timeline animations by recording keyframes and editing curves in Unity
+- [X] Add and edit a particle system to a game object in Unity
 
 
 
@@ -157,19 +157,19 @@ Getting Your Hands Dirty with Unity (120–148)
 ## Chapter 7
 Movement, Camera Controls, and Collisions (149–175)
 
-- [ ] Movement
-	- [ ] Understand the difference between a "position vector" and a "direction vector"
-	- [ ] Capture keyboard input in C#
-	- [ ] Move and rotate a game object using `Translate()` and `Rotate()` with direction vectors
-- [ ] Camera Controls
+- [X] Movement
+	- [X] Understand the difference between a "position vector" and a "direction vector"
+	- [X] Capture keyboard input in C#
+	- [X] Move and rotate a game object using `Translate()` and `Rotate()` with direction vectors
+- [X] Camera Controls
 	- [ ] Add a script to the main camera that follows and looks at the player
-- [ ] Physics and Collisions
-	- [ ] Use `FixedUpdate()` to control game objects using Unity's physics engine
-	- [ ] Apply physics forces to a game object RigidBody using `MovePosition()`
-	- [ ] ✏️ Q: Will a [collision detection](https://docs.unity3d.com/Manual/CollidersOverview.html) occur when a Kinematic Rigidbody Collider touches a Static Collider? : **??**
-	- [ ] Use `OnCollisionEnter()` to check if a game object has run into another collider
-	- [ ] Use `Destroy()` to remove a game object from the scene
-	- [ ] Use `OnTriggerEnter()` and `OnTriggerExit()` to detect when two colliders start and stop touching
+- [X] Physics and Collisions
+	- [X] Use `FixedUpdate()` to control game objects using Unity's physics engine
+	- [X] Apply physics forces to a game object RigidBody using `MovePosition()`
+	- [X] ✏️ Q: Will a [collision detection](https://docs.unity3d.com/Manual/CollidersOverview.html) occur when a Kinematic Rigidbody Collider touches a Static Collider? : **Yes. A collision will register, but since the Rigidbody is kinematic, it won’t respond physically. We'll still get trigger or collision events though.**
+	- [X] Use `OnCollisionEnter()` to check if a game object has run into another collider
+	- [X] Use `Destroy()` to remove a game object from the scene
+	- [X] Use `OnTriggerEnter()` and `OnTriggerExit()` to detect when two colliders start and stop touching
 
 
 
@@ -179,15 +179,15 @@ Movement, Camera Controls, and Collisions (149–175)
 Scripting Game Mechanics (176–207)
 
 - Character Control
-	- [ ] Capture keyboard input in C# using the `enum` type and value `KeyCode.Space`
-	- [ ] Use `AddForce()` to make a character jump
-	- [ ] Use a `LayerMask` and a new "Ground" layer in Unity to determine if a character is "IsGrounded"
-- [ ] Add a shooting mechanic
-	- [ ] Create a "projectile" prefab that moves forward using `RigidBody.velocity`
-	- [ ] Instantiate the projectile on click and destroy it after `3` seconds
-- [ ] Create a GameManager
- 	- [ ] Use `get` and `set` properties to return and assign properties that are used across the game
-- [ ] Add a simple UI to inform the user of game state(s)
-	- [ ] Add text to show the health and items counts to the user
-	- [ ] Add a win condition to the game and display it in the UI
-	- [ ] Use `Time.timeScale = 0` to pause the game
+	- [X] Capture keyboard input in C# using the `enum` type and value `KeyCode.Space`
+	- [X] Use `AddForce()` to make a character jump
+	- [X] Use a `LayerMask` and a new "Ground" layer in Unity to determine if a character is "IsGrounded"
+- [X] Add a shooting mechanic
+	- [X] Create a "projectile" prefab that moves forward using `RigidBody.velocity`
+	- [X] Instantiate the projectile on click and destroy it after `3` seconds
+- [X] Create a GameManager
+	- [X] Use `get` and `set` properties to return and assign properties that are used across the game
+- [X] Add a simple UI to inform the user of game state(s)
+	- [X] Add text to show the health and items counts to the user
+	- [X] Add a win condition to the game and display it in the UI
+	- [X] Use `Time.timeScale = 0` to pause the game
