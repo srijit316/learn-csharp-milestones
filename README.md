@@ -144,12 +144,12 @@ Working with Classes, Structs, and OOP (94–119)
 ## Chapter 6
 Getting Your Hands Dirty with Unity (120–148)
 
-- [ ] Use primitive cubes and move, rotate, and scale tools to create a level or "world" in Unity
-- [ ] Add materials to primitives in Unity to change their color
-- [ ] Use parenting and "empty objects" in the Hierarchy tab to organize your project
-- [ ] Create, update, and use prefab game objects
-- [ ] Create timeline animations by recording keyframes and editing curves in Unity
-- [ ] Add and edit a particle system to a game object in Unity
+- [X] Use primitive cubes and move, rotate, and scale tools to create a level or "world" in Unity
+- [X] Add materials to primitives in Unity to change their color
+- [X] Use parenting and "empty objects" in the Hierarchy tab to organize your project
+- [X] Create, update, and use prefab game objects
+- [X] Create timeline animations by recording keyframes and editing curves in Unity
+- [X] Add and edit a particle system to a game object in Unity
 
 
 
